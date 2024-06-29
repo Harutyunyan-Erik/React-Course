@@ -31,3 +31,21 @@ class Card extends React.Component{
 }
 
 export default Card
+
+class ReactComponent{
+    constructor() {
+        this.state = {
+
+        }
+    }
+
+    
+    setState(props) {
+        this.state = props
+    }
+}
+
+
+const a = new ReactComponent();
+
+a.setState({x: 10})
