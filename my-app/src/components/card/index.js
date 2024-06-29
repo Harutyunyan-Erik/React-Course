@@ -39,6 +39,7 @@ class ReactComponent{
         }
     }
 
+    
     setState(props) {
         this.state = props
     }
