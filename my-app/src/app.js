@@ -1,13 +1,12 @@
-import Card from "./components/card";
-import Button from "./components/button"
+import Auth from "./pages/Auth";
+import Board from "./pages/Board";
 
 function App () {
     return (
         <div>
-           <Card title="MacBook Pro"/>
-           <hr />
-
-           <Button value="Add Card" />
+            <h2>App</h2>
+            <Auth />
+            <Board />
         </div>
     )
 }
